@@ -29,12 +29,12 @@ public class JDBCUsersDemo {
 			//case 1 is for creating a user and password
 			case 1:{
 							System.out.println("Enter name to create user: ");
-							String uname=sc.next();
+							String uname=sc.nextLine();
 							System.out.println("Enter password of the user: ");
 			
 							if(true)
 							{
-								String password=sc.next();
+								String password=sc.nextLine();
 								//checking that the password is not less than 6 characters and not containing the whitespaces
 								if(password.length()>6 && !password.contains(" "))
 								{
